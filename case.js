@@ -12,6 +12,7 @@ console.log(school.toUpperCase());
 const subject = 'Chemistry';
 const book = 'chemistry';
 
+// if(subject===book)
 if(subject.toLocaleLowerCase() === book.toLocaleLowerCase())
 
     {
@@ -24,7 +25,7 @@ else{
 
 const drink = 'water';
 const liquid = ' water  ';
-
+// if(drink===liquid)
 if(drink.trim() === liquid.trim()){
     console.log('pani er opor nam life');
 }
