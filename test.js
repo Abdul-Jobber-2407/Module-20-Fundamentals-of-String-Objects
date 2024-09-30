@@ -1,25 +1,14 @@
-// const school = 'GokulKhali High School';
-// console.log(school);
-// console.log(school.toLocaleLowerCase());
-// console.log(school.toUpperCase());
+const first = 'Abdul';
+const last = 'Jobber';
 
-// const subject = 'Chemistry';
-// const book = 'chemitry';
+const fullName = first + last ;
+console.log(fullName);
 
-// if(subject.toLocaleLowerCase()=== book.toLocaleLowerCase()){
-//     console.log(' I am reading book ');
-// }
-// else{
-//     console.log('ami porta parbo na vai ');
-// }
+const fullName2 = first + ' ' + last;
+console.log(fullName2);
 
+const fullName3 = first.concat(' ').concat(last);
+console.log(fullName3);
 
-const drink ='water';
-const liquid = ' water '
- 
-if(drink.trim()===liquid.trim()){
-    console.log('pani er opor num life');
-}
-else{
-    console.log('somudre pani ace khaita pari na ki r korar');
-}
+// includes
+console.log(last.includes('j'));
