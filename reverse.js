@@ -27,3 +27,4 @@ for(let i=0; i<sentence.length; i++){
 const reversed = sentence.split ('').reverse().join('');
 console.log(reversed);
 
+f
